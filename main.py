@@ -24,9 +24,13 @@ def another_function():
     print('This is another function')
 
 
+def another_function2():
+    print('This is another function')
+
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
-    collect_even_numbers(100)
+    collect_even_numbers()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
