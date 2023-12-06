@@ -17,7 +17,7 @@ def collect_even_numbers(stop):
     even_numbers = []
     for number in range(stop):
         if number % 2 == 0:
-            print(number)
+            even_numbers.append(number)
     return even_numbers
 
 def another_function():
